@@ -41,11 +41,9 @@ function Sidebar() {
             Connect to MetaMask
           </button>
           <button onClick={disconnect}>Disconnect</button>
-          {isActive ? (
-            <span>Connected with {account}</span>
-          ) : (
-            <span className="msg-wallet">Not connected</span>
-          )}
+          <span className="msg-wallet">
+            <h1>Connected Account: {isActive ? account : ""}</h1>
+          </span>
         </div>
       </header>
       <div className={sidebar ? "sidenav active" : "sidenav"}>
