@@ -49,13 +49,10 @@ ul li a:active {
 }
 
 .toggle {
-  top: 0;
   font-size: 25px;
   color: white;
   margin: 10px;
-  position: fixed;
   cursor: pointer;
-  left: 0;
 }
 
 #close {
@@ -66,4 +63,16 @@ ul li a:active {
   position: absolute;
   top: 20px;
   cursor: pointer;
+}
+
+.navbar-wallet {
+  background-color: black;
+  position: fixed;
+  height: fit-content;
+  width: 100%;
+  padding: 5px;
+}
+
+.msg-wallet {
+  color: white;
 }
