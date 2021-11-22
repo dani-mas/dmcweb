@@ -4,16 +4,14 @@ import "./Sidebar.css";
 import { useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
-import { injected } from "../components/wallet/connectors";
-import { useWeb3React } from "@web3-react/core";
+import useMetaMask from "../components/hooks/metamask";
 
 function Sidebar() {
-  const { active, account, library, connector, activate, desactivate } =
-    useWeb3React();
+  //const { active, account, library, connector, activate, desactivate } =useWeb3React();
 
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
-
+  /*
   async function connect() {
     try {
       await activate(injected);
@@ -29,18 +27,22 @@ function Sidebar() {
       console.log(ex);
     }
   }
+*/
+
+  const { connect, disconnect, isActive, account, shouldDisable } =
+    useMetaMask();
 
   return (
     <>
       <header>
         <div className="navbar-wallet">
           <AiOutlineMenu className={"toggle"} onClick={showSidebar} />
-          <button onClick={connect}>Connect to MetaMask</button>
+          <button onClick={connect} disabled={shouldDisable}>
+            Connect to MetaMask
+          </button>
           <button onClick={disconnect}>Disconnect</button>
-          {active ? (
-            <span>
-              Connected with <b>{account}</b>
-            </span>
+          {isActive ? (
+            <span>Connected with {account}</span>
           ) : (
             <span className="msg-wallet">Not connected</span>
           )}
