@@ -1,0 +1,11 @@
+:root {
+  --clr-texto-principal: white;
+  --clr-texto-secundario: rgb(117, 117, 117);
+  --clr-texto-btn-primario: white;
+  --fondo-btn-primario: black;
+  --fondo-btn-primario-hover: orange;
+  --fondo-btn-remarcado: #6effc0;
+  --color-remarcado: #6effc0;
+  --fondo-btn-remarcado-hover: rgb(175, 134, 0);
+  --mensaje-error: red;
+}

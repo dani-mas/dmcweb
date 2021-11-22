@@ -1,0 +1,150 @@
+.contenedor-perfil {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  /*background-image: url(../../assets//Home/bg.jpg);*/
+  /* background-color: #141414;*/
+}
+
+.perfil-padre {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.detalles-nombre-perfil {
+  font-size: 24px;
+  font-family: "Poppins Semibold";
+}
+
+.detalles-perfil-funcion {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.detalles-perfil-funcion h1 {
+  font-size: 40px;
+}
+
+.texto-primario {
+  color: (--clr-texto-principal);
+}
+
+.texto-remarcado {
+  color: var(--fondo-btn-remarcado);
+}
+
+.perfil-funcion-eslogan {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+
+.opciones-perfil .texto-remarcado {
+  margin: 0 0 0 28px;
+}
+.opciones-perfil .btn-remarcado:hover {
+  background-color: var(--fondo-btn-remarcado-hover);
+  color: black;
+}
+
+.foto-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px var(--clr-texto-principal);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+}
+
+.foto-perfil-fondo {
+  height: 92%;
+  width: 92%;
+  background-image: url(../../../assets/Home/foto.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.foto-perfil-fondo:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.colz .colz-icono i {
+  color: var(--clr-texto-principal);
+  padding: 8px;
+  padding-left: 0px;
+}
+
+.colz .colz-icono:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+  .foto-perfil {
+    margin: 0 0px 0 80px;
+  }
+  .detalles-nombre-perfil {
+    font-size: 20px;
+  }
+  .detalles-perfil-funcion .texto-primario {
+    font-size: 12px;
+  }
+  .opciones-perfil .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .foto-perfil {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .foto-perfil {
+    margin: 0 !important;
+  }
+  .perfil-padre {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .opciones-perfil {
+    display: flex;
+    justify-content: space-between;
+  }
+  .detalles-perfil {
+    margin: 25px 0 0;
+  }
+  .opciones-perfil {
+    margin: 0 !important;
+  }
+  .opciones-perfil,
+  .detalles-perfil-funcion {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .foto-perfil {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+  .detalles-perfil {
+    width: 90%;
+  }
+}
