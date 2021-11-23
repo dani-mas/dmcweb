@@ -74,11 +74,30 @@ ul li a:active {
 }
 
 .msg-wallet {
-  color: white;
+  color: rgb(255, 255, 255);
+  margin: 5px 5px 0px 0px;
 }
 
 .btn-conectar-wallet {
   border-radius: 20px;
   background: var(--fondo-btn-remarcado);
   float: right;
+  text-decoration: none;
+  color: var(--clr-texto-btn-remarcado);
+  border: none;
+  margin: auto;
+  padding: 5px 20px 5px 20px;
+}
+
+.contenedor-wallet {
+  float: right;
+}
+.contenedor-wallet-desconectar {
+  background-color: rgb(22, 85, 80);
+  padding: 3px;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 2px 2px 2px 10px;
 }

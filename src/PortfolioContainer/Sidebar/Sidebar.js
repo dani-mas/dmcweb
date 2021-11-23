@@ -46,23 +46,26 @@ function Sidebar() {
       <header>
         <div className="navbar-wallet">
           <AiOutlineMenu className={"toggle"} onClick={showSidebar} />
-
-          <button className="btn-conectar-wallet" onClick={disconnect}>
-            Disconnect
-          </button>
-          <span className="msg-wallet">
+          <div className="contenedor-wallet">
             {isActive ? (
-              account
+              <div className="contenedor-wallet-desconectar">
+                <p className="msg-wallet">{account}</p>
+                <button className="btn-conectar-wallet" onClick={disconnect}>
+                  Disconnect
+                </button>
+              </div>
             ) : (
-              <button
-                className="btn-conectar-wallet"
-                onClick={connectWallet}
-                disabled={shouldDisable}
-              >
-                Connect Wallet
-              </button>
+              <div className="contenedor-wallet-conectar">
+                <button
+                  className="btn-conectar-wallet"
+                  onClick={connectWallet}
+                  disabled={shouldDisable}
+                >
+                  Connect Wallet
+                </button>
+              </div>
             )}
-          </span>
+          </div>
         </div>
       </header>
       <div className={sidebar ? "sidenav active" : "sidenav"}>
