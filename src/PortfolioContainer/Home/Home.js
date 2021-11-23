@@ -1,6 +1,9 @@
 import React from "react";
 import Profile from "./Profile/Profile";
 import Footer from "./Footer/Footer";
+import About from "../AboutMe/AboutMe";
+import Design from "../Design/Design";
+
 import "./Home.css";
 
 function Home() {
@@ -8,6 +11,8 @@ function Home() {
     <div className="contenedor-home">
       <Profile />
       <Footer />
+      <About />
+      <Design />
     </div>
   );
 }

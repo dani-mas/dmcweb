@@ -22,15 +22,16 @@ code {
 }
 
 body ::-webkit-scrollbar-thumb {
-  background-color: red;
+  background-color: var(--fondo-btn-remarcado);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: seagreen;
+  background-color: var(--fondo-btn-remarcado);
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: steelblue;
+  background-color: rgb(41, 41, 41);
 }
 
 .btn {
@@ -92,4 +93,15 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+
+.encabezado-seccion {
+  font-size: 42px;
+  text-align: center;
+  margin: 25px;
+}
+
+.texto-seccion {
+  text-align: center;
+  font-size: 18px;
 }
