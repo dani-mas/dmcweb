@@ -76,3 +76,9 @@ ul li a:active {
 .msg-wallet {
   color: white;
 }
+
+.btn-conectar-wallet {
+  border-radius: 20px;
+  background: var(--fondo-btn-remarcado);
+  float: right;
+}

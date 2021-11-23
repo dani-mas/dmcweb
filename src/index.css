@@ -53,22 +53,29 @@ body ::-webkit-scrollbar-thumb {
   background-color: var(--fondo-btn-primario);
 }
 
+.btn-remarcado {
+  color: var(--clr-texto-btn-remarcado);
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: var(--fondo-btn-remarcado);
+}
+
 /* @media only screen and (max-width:414px){
 .btn-primario{
     font-size: 12px;
     }
 }*/
 
-.btn-primario:hover {
-  color: var(--clr-texto-btn-primario-hover);
-  border: 2px solid orange;
-  background-color: var(--fondo-btn-primario-hover);
+.btn-remarcado:hover {
+  color: var(--clr-texto-btn-remarcado-hover);
+  border: 2px solid rgb(7, 54, 46);
+  background-color: var(--fondo-btn-remarcado-hover);
 }
 
-.btn-remarcado {
-  color: var(--clr-texto-btn-primario);
-  font-size: 12px;
-  background-color: var(--fondo-btn-remarcado);
+.btn-primario:hover {
+  color: var(--clr-texto-btn-primario-hover);
+  border: 2px solid rgb(16, 58, 51);
+  background-color: var(--fondo-btn-primario-hover);
 }
 
 @media only screen and (max-width: 568px) {
