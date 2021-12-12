@@ -53,6 +53,11 @@ ul li a:active {
   color: white;
   margin: 10px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.toggle:hover {
+  color: rgb(179, 255, 219);
 }
 
 #close {
@@ -63,6 +68,11 @@ ul li a:active {
   position: absolute;
   top: 20px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+#close:hover {
+  color: rgb(179, 255, 219);
 }
 
 .navbar-wallet {

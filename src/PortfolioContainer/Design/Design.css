@@ -1,4 +1,8 @@
 .contenedor-design {
+  padding: 30px;
+  background-image: url(../../assets/Design/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .design-padre {
 }
@@ -8,4 +12,13 @@
   white-space: -moz-pre-wrap; /* Firefox */
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* IE */
+}
+
+.bola {
+  align-items: center;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }

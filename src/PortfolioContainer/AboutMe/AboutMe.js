@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+//import forma from "../../assets/About/forma1.png";
 
 function About() {
   return (

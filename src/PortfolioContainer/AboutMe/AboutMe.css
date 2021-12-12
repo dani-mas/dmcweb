@@ -1,5 +1,6 @@
 .contenedor-about {
   background-color: white;
+  padding: 30px;
 }
 .about-padre {
 }
@@ -8,4 +9,12 @@
   white-space: -moz-pre-wrap; /* Firefox */
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* IE */
+}
+
+.forma {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  bottom: 0;
+  background-position: 10rem;
 }
