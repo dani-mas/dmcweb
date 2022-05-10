@@ -61,7 +61,7 @@ function Sidebar() {
                   onClick={connectWallet}
                   disabled={shouldDisable}
                 >
-                  Connect Wallet
+                  Conectar billetera
                 </button>
               </div>
             )}

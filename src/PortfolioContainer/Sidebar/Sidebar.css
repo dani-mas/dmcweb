@@ -92,10 +92,8 @@ ul li a:active {
 
 .btn-conectar-wallet {
   border-radius: 20px;
-  background: var(--fondo-btn-remarcado);
   float: right;
   text-decoration: none;
-  color: var(--clr-texto-btn-remarcado);
   border: none;
   margin: auto;
   padding: 5px 20px 5px 20px;

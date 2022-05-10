@@ -1,11 +1,29 @@
 :root {
-  --clr-texto-principal: white;
+
   --clr-texto-btn-remarcado: rgb(0, 0, 0);
   --clr-texto-btn-primario: rgb(255, 255, 255);
   --fondo-btn-primario: black;
   --fondo-btn-primario-hover: rgb(0, 41, 37);
-  --fondo-btn-remarcado: #6effc0;
+  --clr-principal2: #6effc0;
   --color-remarcado: #6effc0;
-  --fondo-btn-remarcado-hover: #48e4a0;
+  --clr-principal2-hover: #48e4a0;
   --mensaje-error: red;
+
+  --clr-texto: white;
+
+
+  --clr-principal: #03045E;
+  --clr-principal2: #023E8A;
+  --clr-3: #0077B6;
+  --clr-4: #0096C7;
+  --clr-5: #00B4D8;
+
+  --clr-6: #48CAE4;
+
+  --clr-fondo-1: #90E0EF;
+  --clr-fondo-2: #ADE8F4;
+  --clr-fondo-3: #CAF0F8;
+
+
+
 }

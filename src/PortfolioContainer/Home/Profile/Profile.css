@@ -32,11 +32,11 @@
 }
 
 .texto-primario {
-  color: (--clr-texto-principal);
+  color: (--clr-texto);
 }
 
 .texto-remarcado {
-  color: var(--fondo-btn-remarcado);
+  color: var(--clr-principal2);
 }
 
 .perfil-funcion-eslogan {
@@ -49,7 +49,7 @@
   margin: 0 0 0 28px;
 }
 .opciones-perfil .btn-remarcado:hover {
-  background-color: var(--fondo-btn-remarcado-hover);
+  background-color: var(--clr-principal2-hover);
   color: black;
 }
 
@@ -67,7 +67,7 @@
 .foto-perfil-fondo {
   height: 92%;
   width: 92%;
-  background-image: url(../../../assets/Home/foto.jpg);
+  background-image: url(../../../assets/Home/LOGO2.png);
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -79,15 +79,7 @@
   transition: 1s ease-out;
 }
 
-.colz .colz-icono i {
-  color: var(--clr-texto-principal);
-  padding: 8px;
-  padding-left: 0px;
-}
 
-.colz .colz-icono:hover {
-  transform: scale(1.5);
-}
 
 @media screen and (max-width: 1110px) {
   .foto-perfil {

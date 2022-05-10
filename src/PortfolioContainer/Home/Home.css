@@ -3,5 +3,5 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 670px;
-  background-color: #141414;
+  background-color:   var(--clr-4);
 }

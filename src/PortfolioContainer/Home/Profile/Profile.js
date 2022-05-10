@@ -7,29 +7,12 @@ function Profile() {
     <div className="contenedor-perfil">
       <div className="perfil-padre">
         <div className="detalles-perfil">
-          <div className="colz">
-            <div className="colz-icono">
-              <a href="#">
-                <i className="fa fa-facebook-square"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-google-plus-square"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-youtube-square"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-twitter"></i>
-              </a>
-            </div>
-          </div>
+          <div className="colz"></div>
           <div className="detalles-nombre-perfil">
             <span className="texto-primario">
               {""}
-              Hello, I'm <span className="texto-remarcado"> Dani </span>
+              Hola! Bienvenido a
+              <span className="texto-remarcado"> Wiblyx </span>
             </span>
           </div>
           <div className="detalles-perfil-funcion">
@@ -39,27 +22,29 @@ function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full Stack Developer💻",
+                    "Desarrollo web💻",
                     1000,
-                    "UI/UX Designer🪐",
+                    "Diseño gráfico🪐",
                     1000,
-                    "NFT Artist👾",
+                    "SEO y marketing👾",
+                    1000,
+                    "Blockchain 👾",
                     1000,
                   ]}
                 />
               </h1>
               <span className="perfil-funcion-eslogan">
-                esto es una prueba ya lo cambiare cuando piense algo.
+                Empieza cualquier tipo de negocio ahora.
               </span>
             </span>
           </div>
           <div className="opciones-perfil">
             <button className="btn btn-primario">
               {""}
-              Contáctame {""}
+              Contáctanos {""}
             </button>
             <a href="#">
-              <button className="btn btn-remarcado">testtt</button>
+              <button className="btn btn-remarcado">Nuestro trabajo</button>
             </a>
           </div>
         </div>
